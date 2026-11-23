@@ -1,0 +1,39 @@
+# AskGMP — ingestion pipeline
+#
+# Install:  venv/Scripts/python.exe -m pip install -r requirements.txt
+
+# Registry (the source of truth for document metadata)
+pandas>=2.0
+pyarrow>=14.0            # documents_registry.parquet
+
+# Extraction
+pymupdf>=1.24            # PDF text, and the fallback when the markdown pass fails
+pymupdf4llm>=0.0.17      # PDF -> markdown, page-aware
+beautifulsoup4>=4.12     # HTML
+python-pptx>=1.0         # PPTX (MHRA OOS guidance is only published as a deck)
+
+# Chunking
+tiktoken>=0.7            # cl100k_base token counts; the indexer degrades to a
+                         # character estimate without it, but chunk boundaries
+                         # then only approximate the budget
+
+# Embedding + vector store
+openai>=1.30
+qdrant-client>=1.9
+
+# Document upload + reading (app/documents)
+openpyxl>=3.1           # .xlsx / .xlsm
+python-docx>=1.1        # .docx
+rapidocr>=3.0           # OCR for scans, screenshots and diagrams;
+                        # ONNX models ship in document_reader/OCR/
+# onnxruntime is pulled in by rapidocr; pillow and numpy by pymupdf4llm.
+
+# Chat API + frontend
+fastapi>=0.110           # POST /api/chat
+uvicorn[standard]>=0.29  # ASGI server for the API
+streamlit>=1.57          # chat UI and the source dataframe
+requests>=2.31           # frontend -> API
+
+# Tests
+pytest>=8.0
+httpx>=0.27              # fastapi.testclient
