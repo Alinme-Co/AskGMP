@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+node_modules/
+dist/
+.next/
+# Video render scratch (keep final mp4/jpg, plan and composition source)
+videos/*/work/
+videos/*/auditions/
+videos/*/composition/.hyperframes/
