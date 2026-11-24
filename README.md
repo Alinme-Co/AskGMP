@@ -4,7 +4,7 @@ AskGMP is an Alinme question-answering tutorial for pharmaceutical Good Manufact
 
 ![AskGMP banner with a magnifying glass over pharmaceutical regulatory documents](docs/askgmp-banner.jpg)
 
-          [Quick start](#quick-start) · [API and OpenAPI](#api-and-openapi) · [How CAG and RAG work](#how-cag-and-rag-work) · [Benchmark](#cag-rag-vs-plain-rag-benchmark) · [License](#license)
+[Quick start](#quick-start) · [API and OpenAPI](#api-and-openapi) · [How CAG and RAG work](#how-cag-and-rag-work) · [Benchmark](#cag-rag-vs-plain-rag-benchmark) · [License](#license)
 
 ## What can I ask AskGMP?
 
