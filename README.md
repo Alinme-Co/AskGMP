@@ -1,10 +1,10 @@
-# AskGMP — Pharmaceutical GMP Questions with Source Citations
+# AskGMP: Pharmaceutical GMP Questions with Source Citations
 
 AskGMP is an Alinme question-answering tutorial for pharmaceutical Good Manufacturing Practice (GMP). It helps quality assurance and regulatory teams find answers in sources such as EudraLex Volume 4, FDA 21 CFR Parts 210 and 211, and ICH Q9(R1) and Q10. Responses include source documents, page ranges when available, and official links when recorded in the registry.
 
 ![AskGMP banner with a magnifying glass over pharmaceutical regulatory documents](docs/askgmp-banner.jpg)
 
-[Quick start](#quick-start) · [API and OpenAPI](#api-and-openapi) · [How CAG and RAG work](#how-cag-and-rag-work) · [Benchmark](#cag-rag-vs-plain-rag-benchmark) · [License](#license)
+          [Quick start](#quick-start) · [API and OpenAPI](#api-and-openapi) · [How CAG and RAG work](#how-cag-and-rag-work) · [Benchmark](#cag-rag-vs-plain-rag-benchmark) · [License](#license)
 
 ## What can I ask AskGMP?
 
