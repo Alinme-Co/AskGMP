@@ -1,6 +1,6 @@
 # AskGMP: Pharmaceutical GMP Questions with Source Citations
 
-AskGMP is an Alinme question-answering tutorial for pharmaceutical Good Manufacturing Practice (GMP). It helps quality assurance and regulatory teams find answers in sources such as EudraLex Volume 4, FDA 21 CFR Parts 210 and 211, and ICH Q9(R1) and Q10. Responses include source documents, page ranges when available, and official links when recorded in the registry.
+AskGMP is an [Alinme](https://www.alinme.com) AI engineering tutorial that combines **Cache-Augmented Generation (CAG)** and hybrid **Retrieval-Augmented Generation (RAG)** to answer pharmaceutical Good Manufacturing Practice (GMP) questions with document references and page-level citations when available.
 
 ![AskGMP banner with a magnifying glass over pharmaceutical regulatory documents](docs/askgmp-banner.jpg)
 
